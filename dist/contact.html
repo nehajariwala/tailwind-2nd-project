@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet"
+        href="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../jquery/jquery.js"> -->
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="./contact.css">
+
+    <link rel="stylesheet" href="./output.css">
+    <title>Product Page</title>
+</head>
+
+<body>
+    <!-- HEADER SECTION -->
+
+    <header class="bg-black h-20 text-white font-bold flex flex-wrap items-center justify-evenly ">
+        <div class="flex flex-wrap gap-5 items-center hover:text-red-900">
+
+            <div class="flex flex-wrap flex-row gap-2 text-3xl uppercase text-gray-200">
+                Liquor
+                <span class="text-gray-400 hover:text-orange-600">store</span>
+            </div>
+        </div>
+        <section class="float-right text-gray-400 font-medium uppercase">
+            <ul class="flex flex-wrap items-center gap-12">
+                <li class=" hover:text-orange-600"><a href="./index.html">Home</a></li>
+                <li class=" hover:text-orange-600"><a href="./product.html">About </a></li>
+                <li class=" hover:text-orange-600"><a href="./product.html">Product</a></li>
+                <li class=" hover:text-orange-600"><a href="">Blog</a></li>
+                <li class=" hover:text-orange-600"><a href="./contact.html">Contact</a></li>
+            </ul>
+        </section>
+    </header>
+
+    <!-- banner section -->
+    <section class="bg-[url('../img/banner.webp')]  h-96 bg-fixed bg-cover flex flex-wrap justify-evenly items-center">
+        <div class="text-gray-400 text-6xl text-center">
+              Contact
+            <span class="font-bold text-white"> Us</span>
+         </div>
+        </div>
+    </section>
+
+      <!-- 1ST SECTION -->
+   <section class=" flex flex-wrap  justify-evenly m-10">
+<div class=" grid grid-cols-4 text-center items-center gap-32">
+    <div class=" ">
+        <i class="fa-solid fa-location-dot text-2xl text-white rounded-full bg-orange-600 p-12"></i>
+        <div class="flex flex-wrap flex-row gap-2  text-center justify-center p-2 uppercase ">
+            Address:
+            <span class="text-orange-600">71 New York NY</span>
+        </div>
+       
+    </div>
+    
+    <div class="">
+        <i class="fa-solid fa-phone text-2xl text-white rounded-full bg-orange-600 p-12"></i>
+        
+        <div class="flex flex-wrap flex-row gap-2  text-center justify-center p-2 uppercase ">
+            Phone:
+            <span class="text-orange-600">+ 1235 2355 98</span>
+        </div>
+    </div>
+   
+    <div  class="">
+        <i class="fa-solid fa-location-arrow text-2xl text-white rounded-full bg-orange-600 p-12"></i>
+        <div class="flex flex-wrap flex-row gap-2  text-center justify-center p-2 uppercase ">
+            Email:
+            <span class="text-orange-600">info@yousite.com</span>
+        </div>
+    </div>
+    <div  class="">
+        <i class="fa-solid fa-earth-americas text-2xl text-white rounded-full bg-orange-600 p-12"></i>
+        <div class="flex flex-wrap flex-row gap-2  text-center justify-center p-2 uppercase ">
+            Website
+            <span class="text-orange-600">yoursite.com</span>
+        </div>
+    </div>
+</div>
+   </section>
+
+ <!-- 2nd section -->
+
+  <section class="flex m-10">
+    <div class="w-1/2  flex flex-wrap justify-center">
+        <img src="../img/c1.png"  alt="">
+    </div>
+    <div class="w-1/2 p-10">
+        <section class="contact-us" id="contact-section">
+            <form id="contact" action="" method="post">
+             
+              <div class="section-heading">
+                <h4>Contact us</h4>
+              </div>
+        
+              <div class="inputField">
+                <input type="name" name="name" id="name" placeholder="Your name" autocomplete="on" required>
+                <span class="valid_info_name"></span>
+              </div>
+        
+              <div class="inputField">
+                <input type="Email" name="email" id="email" placeholder="Your email" required="" />
+                <span class="valid_info_email"></span>
+              </div>
+        
+              <div class="inputField">
+                <textarea name="message" id="message" placeholder="Your message"></textarea>
+                <span class="valid_info_message"></span>
+              </div>
+        
+              <div class="inputField btn">
+                <button type="submit" id="form-submit" class="main-gradient-button" disabled>Send a message</button>
+              </div>
+        
+            </form>
+          </section>    
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+<!-- 6th section -->
+
+<section class="bg-black h-56 ">
+    <div class="grid grid-cols-5 container p-5">
+      <div class="text-start hover:text-red-900   space-y-3">
+               
+        <div class="flex flex-wrap flex-row  text-3xl uppercase text-gray-200">
+            Liquor 
+           <span class="text-gray-400 hover:text-orange-600">store</span>
+        </div>
+        <p  class="text-gray-500 font-medium">Far far away, behind the word mountains, far from the countries.</p>
+        <i class="fa-brands fa-square-twitter text-orange-800 p-2 rounded-full text-2xl"></i>
+        <i class="fa-brands fa-facebook  text-orange-800 rounded-full p-2 text-2xl"></i>
+        <i class="fa-brands fa-instagram   text-orange-800 rounded-full p-2 text-2xl"></i>
+    </div>
+    <div class="text-start space-y-3">
+      <h1 class="text-2xl text-gray-300">My Accounts</h1>
+      <p class="text-gray-500 font-medium">> My Account</p>
+      <p  class="text-gray-500 font-medium">> Registert</p>
+      <p  class="text-gray-500 font-medium"> > Log In</p>
+      <p  class="text-gray-500 font-medium"> > My Order</p>
+  
+    </div>
+    <div class="text-start space-y-3">
+      <h1 class="text-2xl text-gray-300">Information</h1>
+      <p class="text-gray-500 font-medium">> About us</p>
+      <p  class="text-gray-500 font-medium">> Catalog</p>
+      <p  class="text-gray-500 font-medium"> > Contact us</p>
+      <p  class="text-gray-500 font-medium"> > Term & Conditions</p>
+  
+    </div>
+    <div class="text-start space-y-3">
+      <h1 class="text-2xl text-gray-300">Quick Link</h1>
+      <p class="text-gray-500 font-medium">> New User</p>
+      <p  class="text-gray-500 font-medium">> Help Center</p>
+      <p  class="text-gray-500 font-medium"> > Report Spam</p>
+      <p  class="text-gray-500 font-medium"> > Faq's</p>
+  
+    </div>
+    <div class="text-start space-y-3 ">
+      <h1 class="text-2xl text-gray-300">Have a Questions?</h1>
+      <p class="text-gray-500 font-medium"><i class="fa-regular fa-map"></i>  203 Fake St. Mountain <br> View, San Francisco, <br> California, USA</p>
+      <p  class="text-gray-500 font-medium"><i class="fa-solid fa-phone"></i> +2 392 3929 210</p>
+      <p  class="text-gray-500 font-medium"><i class="fa-solid fa-location-dot"></i>  info@yourdomain.com</p>
+      
+    </div>
+  
+  
+  
+    </div>
+  </section>
+  
+  
+  
+  
+  <!-- footer -->
+  <footer class="bg-black text-gray-500 text-center p-10">
+    <h1>Copyright ©2024 All rights reserved | This template is made with <i class="fa-solid fa-heart"></i> by Colorlib.com</h1>
+  </footer>
+
+
+
+
+
+  </body>
+  </html>
