@@ -9,6 +9,7 @@
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../jquery/jquery.js"> -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="../css/all.min.css">
     <link rel="stylesheet" href="./contact.css">
 
@@ -19,28 +20,31 @@
 <body>
     <!-- HEADER SECTION -->
 
-    <header class="bg-black h-20 text-white font-bold flex flex-wrap items-center justify-evenly ">
-        <div class="flex flex-wrap gap-5 items-center hover:text-red-900">
-
-            <div class="flex flex-wrap flex-row gap-2 text-3xl uppercase text-gray-200">
-                Liquor
-                <span class="text-gray-400 hover:text-orange-600">store</span>
+     
+    <header class="bg-black h-20 text-white font-bold flex flex-wrap items-center justify-evenly  ">
+        <div class="flex flex-wrap gap-5 items-center hover:text-red-900 " data-aos="flip-left" >
+           
+            <div class="flex flex-wrap flex-row gap-2 text-3xl uppercase text-gray-200 hover:translate-x-6 transition-all"  >
+                Liquor 
+               <span class="text-gray-400 hover:text-orange-600">store</span>
             </div>
         </div>
-        <section class="float-right text-gray-400 font-medium uppercase">
-            <ul class="flex flex-wrap items-center gap-12">
-                <li class=" hover:text-orange-600"><a href="./index.html">Home</a></li>
-                <li class=" hover:text-orange-600"><a href="./product.html">About </a></li>
-                <li class=" hover:text-orange-600"><a href="./product.html">Product</a></li>
-                <li class=" hover:text-orange-600"><a href="">Blog</a></li>
-                <li class=" hover:text-orange-600"><a href="./contact.html">Contact</a></li>
+        <section class="float-right text-gray-400 font-medium uppercase" >
+            <ul class="flex flex-wrap items-center gap-12 ">
+                <li class=" hover:text-orange-600 "  data-aos="flip-left"><a href="./index.html">Home</a></li>
+                <li class=" hover:text-orange-600" data-aos="flip-left"><a href="./product.html">Product</a></li>
+                <li class=" hover:text-orange-600" data-aos="flip-left"><a href="./contact.html">Contact</a></li>
+                <li class=" hover:text-orange-600"  data-aos="flip-left"><a href="./login.html">login</a></li>
+                
             </ul>
         </section>
     </header>
 
     <!-- banner section -->
     <section class="bg-[url('../img/banner.webp')]  h-96 bg-fixed bg-cover flex flex-wrap justify-evenly items-center">
-        <div class="text-gray-400 text-6xl text-center">
+        <div class="text-gray-400 text-6xl text-center"  data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">
               Contact
             <span class="font-bold text-white"> Us</span>
          </div>
@@ -50,8 +54,10 @@
       <!-- 1ST SECTION -->
    <section class=" flex flex-wrap  justify-evenly m-10">
 <div class=" grid grid-cols-4 text-center items-center gap-32">
-    <div class=" ">
-        <i class="fa-solid fa-location-dot text-2xl text-white rounded-full bg-orange-600 p-12"></i>
+    <div class=" " data-aos="fade-right"
+    data-aos-offset="300"
+    data-aos-easing="ease-in-sine">
+        <i class="fa-solid fa-location-dot text-2xl text-white rounded-full bg-orange-600 p-12 hover:rotate-180 transition-all"></i>
         <div class="flex flex-wrap flex-row gap-2  text-center justify-center p-2 uppercase ">
             Address:
             <span class="text-orange-600">71 New York NY</span>
@@ -59,7 +65,9 @@
        
     </div>
     
-    <div class="">
+    <div class="" data-aos="fade-right"
+    data-aos-offset="300"
+    data-aos-easing="ease-in-sine">
         <i class="fa-solid fa-phone text-2xl text-white rounded-full bg-orange-600 p-12"></i>
         
         <div class="flex flex-wrap flex-row gap-2  text-center justify-center p-2 uppercase ">
@@ -68,14 +76,20 @@
         </div>
     </div>
    
-    <div  class="">
+    <div  class=""  data-aos="flip-down"
+    data-aos-anchor="#example-anchor"
+    data-aos-offset="500"
+    data-aos-duration="500">
         <i class="fa-solid fa-location-arrow text-2xl text-white rounded-full bg-orange-600 p-12"></i>
         <div class="flex flex-wrap flex-row gap-2  text-center justify-center p-2 uppercase ">
             Email:
             <span class="text-orange-600">info@yousite.com</span>
         </div>
     </div>
-    <div  class="">
+    <div  class=""  data-aos="fade-left"
+    data-aos-anchor="#example-anchor"
+    data-aos-offset="500"
+    data-aos-duration="500">
         <i class="fa-solid fa-earth-americas text-2xl text-white rounded-full bg-orange-600 p-12"></i>
         <div class="flex flex-wrap flex-row gap-2  text-center justify-center p-2 uppercase ">
             Website
@@ -88,10 +102,10 @@
  <!-- 2nd section -->
 
   <section class="flex m-10">
-    <div class="w-1/2  flex flex-wrap justify-center">
+    <div class="w-1/2  flex flex-wrap justify-center"  data-aos="flip-left">
         <img src="../img/c1.png"  alt="">
     </div>
-    <div class="w-1/2 p-10">
+    <div class="w-1/2 p-10"  data-aos="flip-down">
         <section class="contact-us" id="contact-section">
             <form id="contact" action="" method="post">
              
@@ -130,7 +144,7 @@
 
 
 
-<!-- 6th section -->
+<!-- 2th section -->
 
 <section class="bg-black h-56 ">
     <div class="grid grid-cols-5 container p-5">
@@ -192,7 +206,10 @@
 
 
 
-
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
   </body>
   </html>
